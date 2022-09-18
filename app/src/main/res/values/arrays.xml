@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="engine_mode">
+        <item>CFM56_7B</item>
+        <item>CFM56_5B</item>
+        <item>CFM56_3</item>
+        <item>CFM56_2</item>
+        <item>LEAP-1A</item>
+        <item>LEAP-1B</item>
+        <item>LEAP-1C</item>
+    </string-array>
+
+    <string-array name="engine_parts">
+        <item>高压压气机</item>
+        <item>高压涡轮</item>
+    </string-array>
+
+    <string-array name="engine_stages">
+        <item>第一级</item>
+        <item>第二级</item>
+        <item>第三级</item>
+        <item>第四级</item>
+        <item>第五级</item>
+        <item>第六级</item>
+        <item>第七级</item>
+        <item>第八级</item>
+        <item>第九级</item>
+        <item>第十级</item>
+    </string-array>
+
+    <string-array name="engine_trans_ratio">
+        <item>1.014</item>           //CFM56-7b
+        <item>1.2</item>           //CFM56-5b
+        <item>0.9803</item>           //CFM56-3
+        <item>1.08938637</item>           //LEAP-1A
+        <item>0.758</item>           //LEAP-1B
+        <item>0.83909391</item>           //LEAP-1C
+
+
+    </string-array>
+
+    <integer-array name="motor_trans_ratio">
+        <item>50</item>
+    </integer-array>
+
+    <integer-array name="NumBlade">
+        <item>38</item>
+        <item>53</item>
+        <item>60</item>
+        <item>68</item>
+        <item>75</item>
+        <item>82</item>
+        <item>82</item>
+        <item>80</item>
+        <item>76</item>
+
+        <item>80</item>
+
+
+        <item>25</item>
+        <item>34</item>
+        <item>39</item>
+        <item>49</item>
+        <item>56</item>
+        <item>66</item>
+        <item>61</item>
+        <item>67</item>
+        <item>64</item>
+        <item>68</item>
+
+        <item>60</item>
+        <item>68</item>
+
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+        <item>60</item>
+
+    </integer-array>
+
+</resources>

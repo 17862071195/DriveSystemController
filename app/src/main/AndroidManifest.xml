@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.drivesystemcontroller">
+
+    <!-- 请求蓝牙权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />     <!-- ACCESS_FINE_LOCATION：允许一个程序访问精确位置(如GPS） -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />   <!-- ACCESS_COARSE_LOCATION：允许一个程序访问CellID或WiFi热点来获取大致的位置 -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.Drive_system.Engine_Drive_Activity"></activity>
+        <activity android:name="com.example.Drive_system.BluetoothActivity" />
+        <!--
+        声名activity
+                                                                                     activity也可以有自己的标签、图标、主题、名字
+                                                                                   如：<activity android:name=".MainActivity"
+                                                                                           android:theme="@style/AppTheme">
+        -->
+        <activity android:name="com.example.Drive_system.MainActivity"/>
+        <activity android:name="com.example.Drive_system.MenuActivity" >
+            <intent-filter>                                                     <!--意图过滤节点-->
+                <action android:name="android.intent.action.MAIN"/>             <!--设置为主Activity-->
+                <category android:name="android.intent.category.LAUNCHER"/>     <!--添加启动策略-->
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.Drive_system.DataRecordActivity">
+
+        </activity>
+
+    </application>
+
+</manifest>

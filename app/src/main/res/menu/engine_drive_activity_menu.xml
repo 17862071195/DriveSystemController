@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/connectBlueTooth"
+        android:title="蓝牙连接" />
+    <item
+        android:id="@+id/selectEngineModel"
+        android:title="型号选择" /> />
+</menu>
